@@ -35,6 +35,11 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           report_publish.yml → auto-publish MPRs to OneDrive.
+          on:
+  push:
+    branches:
+      - main   # or any branch you want
+
 
 boq_validation.yml → validate revised BOQs before merging.
 
